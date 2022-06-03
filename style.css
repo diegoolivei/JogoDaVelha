@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    background-color: rgb(25, 176, 50);
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    color: rgb(255, 0, 68);
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 68);
+    border: 2px solid black;
+    display: inline-block;
+    box-shadow:0.1em 0.1em 0.1em black;;
+    cursor: pointer;
+}
+
+.o{
+
+    position: relative;
+
+}
+
+.o:after{
+    position: absolute;
+    line-height: 100px;
+    top:0px;
+    bottom: 20px;
+    left: 0;
+    right:0;
+    content: "o";
+    font-size: 110px;
+    color: rgb(25, 176, 50);
+    
+  
+}
+
+.x{
+
+    position: relative;
+
+}
+
+.x:after{
+    position: absolute;
+    line-height: 100px;
+    top:0;
+    bottom: 20px;
+    left: 0;
+    right:0;
+    content: "x";
+    font-size: 110px;
+    color: rgb(25, 176, 50);
+    
+}
+
+#btn{
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:rgb(255, 0, 68);
+    color: white
+}
+
+#btn:hover{
+    color:rgb(255, 0, 68);
+    background-color:white;
+}
+
+.old{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 150px;
+}
+
+.gameold{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 150px;
+    top:400px;
+}
